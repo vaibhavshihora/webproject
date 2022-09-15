@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{>headerLinks}}
+
+</head>
+
+<body>
+    {{>navbar}}
+
+    <!-- main page  -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!-- main header left -->
+                    <div class="col-md-12 col-12 main_header_left align-items-center">
+                        <figure class="errorImg">
+                            <img src="img/404.jpg">
+                        </figure>
+                        <p>Welcome to Thapa Technical World</p>
+                        <h1>
+                            {{errorMsg}}
+                        </h1>
+                        <a href="/"><button>Go Back</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer code -->
+    {{>footer}}
+</body>
+
+</html>
